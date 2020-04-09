@@ -1,0 +1,18 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "--- home: true actionText: 欢迎 → actionLink: /components/button features: - title: 搭建自己的组件库   details: 从0搭建自己的组件库 ---",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "element-ui": "^2.13.0",
+    "highlight.js": "^9.18.1",
+    "vuepress": "^1.4.0"
+  }
+}
